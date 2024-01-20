@@ -1,0 +1,77 @@
+/* common styles */
+* {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+section {
+    margin-top: 100px;
+}
+
+/* Header styles */
+.header {
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1250px;
+}
+
+.header-sub-title {
+    padding-top: 150px;
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.header-title {
+    /* padding-top: 5%; */
+    padding-bottom: 150px;
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* offer section styles */
+.offer {
+    background: #FFF;
+}
+
+.offer-title {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.offer-description {
+    margin-top: 40px;
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer-sub-title {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer-img {
+    width: 70%;
+    margin-left: 200px;
+    margin-right: 300px;
+}
