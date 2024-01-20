@@ -75,3 +75,38 @@ main {
     margin-left: 200px;
     margin-right: 300px;
 }
+
+/* welcome section styles */
+.welcome {
+    border-radius: 5px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Group\ 70.png') no-repeat right center, url('../images/Vectorrr.png');
+
+
+}
+
+.welcome-title {
+    padding-top: 50px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    padding: 125px 450px 25px 125px;
+}
+
+.welcome-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 450px 25px 125px;
+}
+
+.welcome-btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 125px;
+    margin-bottom: 100px;
+    background-color: black;
+}
