@@ -196,3 +196,59 @@ main {
 .adv-year-two img {
     width: 50%;
 }
+
+/* holiday section styles */
+.holiday {}
+
+.holiday-sub-title {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.holiday-title {
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.holiday-color {
+    color: #F00;
+}
+
+.holiday-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.show-off {
+    position: relative;
+}
+
+.holiday-showoff {
+    display: flex;
+    gap: 50px;
+    margin-right: 200px;
+}
+
+.showoff-both {
+    position: relative;
+}
+
+
+.showoff-two {
+    position: absolute;
+    left: -200px;
+    top: 50px;
+}
+
+.holiday-rec {
+    position: absolute;
+    top: 420px;
+}
+
+/* portfolio section styles */
+.portfolio {}
