@@ -287,7 +287,12 @@ main {
 }
 
 /* subscribe section styles */
-.subscribe {}
+.subscribe {
+    padding: 80px 200px 80px 200px;
+
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
 
 .subscribe-logo {
     text-align: center;
@@ -309,10 +314,13 @@ main {
 
 .subscribe-contact {
     display: flex;
-    justify-content: space-around;
+    padding-left: 300px;
 }
 
-.contact-email {
+.subscribe-contact input[type=email] {
+    border: 0;
+    border-radius: 50px;
+    background: #FFF;
     color: rgba(7, 2, 17, 0.30);
     text-align: center;
     font-size: 18px;
