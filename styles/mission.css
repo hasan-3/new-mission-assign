@@ -251,8 +251,8 @@ main {
 }
 
 /* portfolio section styles */
-.portfolio {
-    background: #FFF;
+.portfolio:hover {
+    background: #bfb8db;
 }
 
 .portfolio-sub-title {
